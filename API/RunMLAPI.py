@@ -27,7 +27,7 @@ with header:
     )
     st.text("ref. (10k=6.2 miles , Half marathon=13.1 miles, Full marathon=26.2 miles)")
 
-rfc_model = load("/StuartRL/RunMLp/models/rfc.joblib")
+rfc_model = load("models/rfc.joblib")
 
 st.sidebar.markdown(
     """
